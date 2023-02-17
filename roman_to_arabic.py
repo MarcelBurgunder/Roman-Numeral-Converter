@@ -42,9 +42,9 @@ def main() -> None:
 
 def get_arabic(roman: str) -> int:
     """
-    Returns the Arabic numeral corresponding to some Roman numeral input.
-    1) Any input that includes an invalid character, such as A, v, ~, V̅, will be evaluated as an invalid input and raise an error.
-    2) Character ordering is not validated, meaning numerals such as XVX, VIIIIII won't raise an error and will return some integer.
+    Returns the Arabic numeral (as an integer) corresponding to some Roman numeral input.
+    1) Any input that includes an invalid character, such as A, v, ~, V̅, will be evaluated as an invalid input, raise an error, and return -1.
+    2) Character ordering is not validated, meaning numerals such as XVX, VIIIIII won't raise an error and will return some integer that isn't -1.
     """
     total = 0
     i = 0 
