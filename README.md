@@ -46,7 +46,7 @@ Here are some Roman numerals:
   - Any input that includes an invalid character, such as *A*, *G*, *Z*, *~*, *%*, will be evaluated as an invalid input and raise an error.
   - Input processing is case sensitive, meaning that a character such as *v* will not be recognised as *V*, and treated as an invalid character.
   - **Most Importantly:** Beyond these very simple validation checks we are assuming that the provided input is completely valid, thus inputting principally invalid (due to the ordering and/or frequency of valid characters) strings will result in no error and some nonsense incorrect Arabic equivalent. This includes invalid inputs such as *VIIIIIXI*, *XVX*, *MDD*, *IM*.  
-- This script doesn't return anything, it only converts some inputted Roman numeral and print its Arabic equivalent.
+- This script doesn't return anything, it only converts some inputted Roman numeral and prints its Arabic equivalent.
 
 **Testing**
 
