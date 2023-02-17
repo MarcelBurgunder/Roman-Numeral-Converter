@@ -27,8 +27,8 @@ def main() -> None:
     Accepts and requires one argument that denotes a Roman numeral string.
     Validates the input and prints the corresponding arabic numeral.
     """
-    roman = sys.argv[1] if len(sys.argv) > 1 else None
-    if roman == None:
+    roman = sys.argv[1] if len(sys.argv) > 1 else ""
+    if roman == "":
         print("Error: No Roman numeral input was provided.")
         return
 
